@@ -6,9 +6,6 @@ SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
 # Initialize Pygame
 pygame.init()
 
-# Define colors
-WHITE = (255, 255, 255)
-
 # Create a basic collectible class
 class Collectible(pygame.sprite.Sprite):
     def __init__(self, x, y, image_path):

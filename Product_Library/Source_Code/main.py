@@ -15,6 +15,7 @@ except pygame.error as e:
 BACKGROUND = (53, 81, 92)
 PLAYER = 'Product_Library/Source_Code/art/player.png'
 
+
 is_jumping = False
 jump_height = 15  # Jump strength (adjust as needed)
 gravity = 1       # Gravity strength
